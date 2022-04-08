@@ -1,0 +1,13 @@
+.mspb-alert{
+  border-radius: 2px;
+  padding: 12px;
+  color: #ffffff;
+
+  &--error{
+    background-color: $error-background;
+  }
+
+  &--success{
+    background-color: $success-background;
+  }
+}

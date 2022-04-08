@@ -1,0 +1,7 @@
+a.link{
+  text-decoration: underline;
+
+  &--primary{
+    color: $primary-text-highlight;
+  }
+}

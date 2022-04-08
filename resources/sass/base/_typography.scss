@@ -1,0 +1,19 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: #474D52;
+  font-size: 16px;
+}
+
+input, textarea, button{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,14 @@
+$amounts: (4, 8, 12, 16, 24, 32, 64, 128);
+$sides: ("top" : "t", "right": "r", "bottom": "b", "left": "l");
+
+@each $space in $amounts {
+  @each $side, $postfix in $sides {
+    .m#{$postfix}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .p#{$postfix}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}
